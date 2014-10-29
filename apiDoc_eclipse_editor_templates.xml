@@ -10,11 +10,11 @@
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDescription">@apiDescription ${text}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiError">@apiError [(${group})] [{${type}}] ${field} [${description}]</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorExample">@apiErrorExample [{${type}}] [${title}]&#13;
-*                  ${example}</template>
+*  ${example}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorStructure">@apiErrorStructure ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorTitle">@apiErrorTitle (${group}) ${description}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiExample">@apiExample [{${type}}] [${title}]&#13;
-*             ${example}</template>
+*  ${example}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiGroup">@apiGroup ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiGroupDescription">@apiGroupDescription ${text}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiHeader">@apiHeader [(${group})] [{${type}}] [${field}=${defaultValue}] [${description}]</template>
@@ -29,7 +29,7 @@
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiStructure">@apiStructure ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccess">@apiSuccess [(${group})] [{${type}}] ${field} [${description}]</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessExample">@apiSuccessExample [{${type}}] [${title}]&#13;
-*                    ${example}</template>
+*  ${example}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessStructure">@apiSuccessStructure ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessTitle">@apiSuccessTitle (${group}) ${description}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiVersion">@apiVersion ${version}</template>
