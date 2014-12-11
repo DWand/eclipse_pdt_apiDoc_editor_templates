@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <templates>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@api">@api {${method}} ${path} [${title}]</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefineErrorStructure">@apiDefineErrorStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefineHeaderStructure">@apiDefineHeaderStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefinePermission">@apiDefinePermission ${name} [${title}]&#13;
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefine">@apiDefine ${name} [${title}]&#13;
+*            [${description}]</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiDefineErrorStructure">@apiDefineErrorStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiDefineHeaderStructure">@apiDefineHeaderStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiDefinePermission">@apiDefinePermission ${name} [${title}]&#13;
 *                      [${description}]</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefineStructure">@apiDefineStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDefineSuccessStructure">@apiDefineSuccessStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiDefineStructure">@apiDefineStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiDefineSuccessStructure">@apiDefineSuccessStructure ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiDescription">@apiDescription ${text}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiError">@apiError [(${group})] [{${type}}] ${field} [${description}]</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorExample">@apiErrorExample [{${type}}] [${title}]&#13;
 *  ${example}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorStructure">@apiErrorStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiErrorTitle">@apiErrorTitle (${group}) ${description}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiExample">@apiExample [{${type}}] [${title}]&#13;
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiErrorStructure">@apiErrorStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiErrorTitle">@apiErrorTitle (${group}) ${description}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiExample">@apiExample [{${type}}] ${title}&#13;
 *  ${example}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiGroup">@apiGroup ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiGroupDescription">@apiGroupDescription ${text}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiGroupDescription">@apiGroupDescription ${text}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiHeader">@apiHeader [(${group})] [{${type}}] [${field}=${defaultValue}] [${description}]</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiHeaderStructure">@apiHeaderStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiHeaderTitle">@apiHeaderTitle (${group}) ${description}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiHeaderExample">@apiHeaderExample [{${type}}] [${title}]&#13;
+*  ${example}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiHeaderStructure">@apiHeaderStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiHeaderTitle">@apiHeaderTitle (${group}) ${description}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiIgnore">@apiIgnore [${hint}]</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiName">@apiName ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiParam">@apiParam [(${group})] [{${type}}] [${field}=${defaultValue}] [${description}]</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiParamTitle">@apiParamTitle (${group}) ${description}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiParamExample">@apiParamExample [{${type}}] [${title}]&#13;
+*  ${example}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiParamTitle">@apiParamTitle (${group}) ${description}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiPermission">@apiPermission ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSampleRequest">@apiSampleRequest ${url}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiStructure">@apiStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiStructure">@apiStructure ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccess">@apiSuccess [(${group})] [{${type}}] ${field} [${description}]</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessExample">@apiSuccessExample [{${type}}] [${title}]&#13;
 *  ${example}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessStructure">@apiSuccessStructure ${name}</template>
-<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiSuccessTitle">@apiSuccessTitle (${group}) ${description}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiSuccessStructure">@apiSuccessStructure ${name}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag [deprecated]" enabled="true" name="@apiSuccessTitle">@apiSuccessTitle (${group}) ${description}</template>
+<template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiUse">@apiUse ${name}</template>
 <template autoinsert="false" context="phpcomment" deleted="false" description="apiDoc tag" enabled="true" name="@apiVersion">@apiVersion ${version}</template>
 </templates>
